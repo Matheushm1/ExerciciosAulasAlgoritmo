@@ -8,7 +8,7 @@ inicio
       Escreval ("--------------------")
       Escreva ("Infome uma medida em Metros (m): ")
       Leia (M)
-      Escreval ("Escolha o tipo de convers„o: ")
+      Escreval ("Escolha o tipo de convers√£o: ")
       Escreval ("[1] - MM")
       Escreval ("[2] - CM")
       Escreval ("[3] - DM")
@@ -33,13 +33,12 @@ inicio
                  HM <- M / 100
                    Escreval ("[HM] ", HM)
               Caso 6
-                <- KM <- M / 1000
+                 KM <- M / 1000
                    Escreval ("[KM] ", KM)
-                   //Devido a limitaÁ„o da linguagem a converÁ„o em KM resulta em 0
-
                    
               OutroCaso
                    Escreval ("Opcao Invalida!")
       Fimescolha
+
 
 fimalgoritmo
